@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Todo Application</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="todo--container">
+                <div class="todo--header">
+                    <div class="left">
+                        <h2 class="date--day-no">22</h2>
+                        <div class="month--year">
+                            <p class="month">JAN</p>
+                            <p class="year">2021</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <p class="full--day">TUESDAY</p>
+                    </div>
+                </div>
+                <ul class="todo--items">
+                    <li class="todo--item">
+                        <p class="todo--text">Buy new sweatshirt</p>
+                        <label for="myRadioBtn" class="radio">
+                            <input
+                                type="radio"
+                                name="myRadioInput"
+                                id="myRadioBtn"
+                                class="radio--input"
+                            />
+                            <div class="radio--main"></div>
+                        </label>
+                    </li>
+                </ul>
+                <button class="add--todo-btn">+</button>
+            </div>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
